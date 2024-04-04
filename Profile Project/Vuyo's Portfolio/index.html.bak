@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- heading part code -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vuyo's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  
+ <!-- body start code -->
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Vuyo.</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Vuyo..!!</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/VuyoPic1.png" alt="Vuyo Mthembu profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hi, I'm </p>
+        <h1 class="title">Vuyo Mthembu</h1>
+        <p class="section__text__p2">Web Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./file:///C:/Users/Vuyo/OneDrive/Documents/NEW%20VUYO.pdf')">Download CV</button>
+        
+        </div>
+		
+		<!-- GitHub icon and LinkedIn icon -->
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/vuyo-mthembu-3a25942b7/?originalSubdomain=za'" />
+          <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'" />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+	  <div class="port layout"> </div>
+	  <div class="port-parent flex justify-center align-center text-center"> </div>
+            <div class="port-child"> </div>
+		
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/Vuyo.png" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>I'm a passionate 3rd year student at Richfield College, studying Bachelor of Science in Information Technology.</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>B.Sc. in Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              At 20 years old, I'm striving to make my dreams a reality. With a deep passion for IT and coding, I enjoy exploring new challenges and opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</>
+      </h1>
+      <div class="experience-details-container">
+     
+        <div class="progress-bars-grid">
+          <!-- HTML Skill -->
+          <div class="progress-bar">
+            <p class="prog-title">HTML</p>
+            <div class="progress">
+              <div class="progress-fill html" style="width: 95%;">95%</div>
+            </div>
+          </div>
+		   <!-- Visual Studio.NET Skill -->
+          <div class="progress-bar">
+            <p class="prog-title">Visual Studio.NET</p>
+            <div class="progress">
+              <div class="progress-fill mysql" style="width: 80%;">80%</div>
+            </div>
+          </div>
+		   <!-- C++ Skill -->
+          <div class="progress-bar">
+            <p class="prog-title">C++</p>
+            <div class="progress">
+              <div class="progress-fill mysql" style="width: 95%;">95%</div>
+            </div>
+          </div>
+          <!-- CSS Skill -->
+          <div class="progress-bar">
+            <p class="prog-title">CSS</p>
+            <div class="progress">
+              <div class="progress-fill css" style="width: 95%;">95%</div>
+            </div>
+          </div>
+          <!-- JavaScript Skill -->
+          <div class="progress-bar">
+            <p class="prog-title">JavaScript</p>
+            <div class="progress">
+              <div class="progress-fill js" style="width: 75%;">75%</div>
+            </div>
+          </div>
+          <!-- PHP Skill -->
+          <div class="progress-bar">
+            <p class="prog-title">PHP</p>
+            <div class="progress">
+              <div class="progress-fill php" style="width: 95%;">95%</div>
+            </div>
+          </div>
+          <!-- MySQL Skill -->
+          <div class="progress-bar">
+            <p class="prog-title">MySQL</p>
+            <div class="progress">
+              <div class="progress-fill mysql" style="width: 70%;">70%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+	<br><br>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Projects details based on new info -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Entrepreneurship Hub WebSite Design" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Entrepreneurship Hub WebSite Design</h2>
+            <p>This website for Richfield allows students to interact easily, offering a user-friendly experience.</p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/Moodle Support.png" alt="Hackathon Event" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Hackathon Event</h2>
+            <p>A Moodle help website repository aimed at making online learning more accessible and user-friendly.</p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-3.png" alt="Staff Leave Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Staff Leave Project</h2>
+            <p>A staff leave system allowing employees to manage their leave days effectively, with options for resigning.</p>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+	<!-- Contact me details -->
+    <section class="section sec5 contact" id="contact">
+      <div class="contact-container">
+          <div class="main-title">
+            <h1 class="title">Contact Me</h1>
+			
+          </div>
+          <div class="contact-content-con">
+              <div class="left-contact">
+                
+                  <p>
+      
+                  </p>
+                  <div class="contact-info">
+                      <div class="contact-item">
+                          <div class="icon">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Location</span>
+                          </div>
+                          <p>
+                              : Cape Town, South Africa
+                          </p>
+                      </div>
+                      <div class="contact-item">
+                          <div class="icon">
+                              <i class="fas fa-envelope"></i>
+                              <span>Email</span>
+                          </div>
+                          <p>
+                              <span>: vvuyo037@icloud.com</span>
+                          </p>
+                      </div>
+                      <div class="contact-item">
+                          <div class="icon">
+                              <i class="fas fa-user-graduate"></i>
+                              <span>Education</span>
+                          </div>
+                          <p>
+                              <span>: Richfield</span>
+                          </p>
+                      </div>
+                      <div class="contact-item">
+                          <div class="icon">
+                              <i class="fas fa-user-graduate"></i>
+                              <span>Mobile Number</span>
+                          </div>
+                          <p>
+                              <span>: +2760 452 8742</span>
+                          </p>
+                      </div>
+                      <div class="contact-item">
+                          <div class="icon">
+                              <i class="fas fa-globe-africa"></i>
+                              <span>Languages</span>
+                          </div>
+                          <p>
+                              <span>: English</span>
+                          </p>
+                      </div>
+                  </div>
+                  <div class="contact-icons">
+                      <div class="contact-icon">
+                          
+                          <a href="" target="_blank">
+                              <i class="fab fa-linkedin"></i>
+                          </a>
+                          <a href="" target="_blank">
+                              <i class="fab fa-github"></i>
+                          </a>
+                         
+                      </div>
+                  </div>
+              </div>
+              <div class="right-contact">
+
+                  <form action=https://formsubmit.co/Vvuyo037@gmail.com" method="POST">
+                    
+                       <div class="input-control i-c-2">
+                          <input type="text" required placeholder="YOUR NAME" name="name">
+                          <input type="email" required placeholder="YOUR EMAIL" name="email">
+                      </div>
+                      <div class="input-control">
+                          <input type="text" required placeholder="ENTER SUBJECT" name="subject">
+                      </div>
+                      <div class="input-control">
+                          <textarea name="Message" cols="15" rows="8" placeholder="Message Here..." ></textarea>
+                      </div> 
+                      <div class="submit-btn">
+                          <input type="submit" value="Submit" class="send-btn">  
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section> 
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>&copy; 2024 Vuyo Mthembu. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js">
+  
+  </script>
+  
+
+  
+  </body>
+</html>

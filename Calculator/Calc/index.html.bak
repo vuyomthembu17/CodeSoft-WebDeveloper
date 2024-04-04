@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.Js">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <h1 align="left">Calculator</h1>
+
+  <div class="calculator dark">
+            <div class="theme-toggler active">
+                <i class="toggler-icon"></i>
+            </div>
+            <div class="display-screen">
+                <div id="display"></div>
+            </div>
+
+    
+    <div class="calculator">
+	<!-- <button onclick="toggleDarkMode()">Toggle Dark Mode</button> -->
+	
+        <input type="text" id="result" readonly>
+        <div class="buttons">
+		
+            <button onclick="clearResult()">AC</button>
+            <button onclick="appendToResult('/')">&divide;</button>
+			<button onclick="appendToResult('*')">&times;</button>
+			<button onclick="appendToResult('-')">-</button>
+			<button onclick="appendToResult('7')">7</button>
+            <button onclick="appendToResult('8')">8</button>
+            <button onclick="appendToResult('9')">9</button>
+            <button onclick="appendToResult('+')">+</button>
+            <button onclick="appendToResult('4')">4</button>
+            <button onclick="appendToResult('5')">5</button>
+            <button onclick="appendToResult('6')">6</button>
+            <button onclick="appendToResult('%')">%</button>
+           
+			<button onclick="appendToResult('1')">1</button>
+			<button onclick="appendToResult('2')">2</button>
+            <button onclick="appendToResult('3')">3</button>
+            <button rowspan="2" onclick="calculate()">=</button>
+			<button onclick="appendToResult('(')">(</button>
+           	<button onclick="appendToResult('0')">0</button>
+            <button onclick="appendToResult(')')">)</button>
+
+        </div>
+    </div>
+	
+    <script src="script.js"></script>
+	<div class="footer"> <p>&copy; 2024 Vuyo Mthembu. All Rights Reserved.</p></div>
+</body>
+</html>
