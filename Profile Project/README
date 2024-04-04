@@ -1,0 +1,23 @@
+Vuyo's Portfolio Website
+This repository contains the code for Vuyo's portfolio website. Below is an overview of the files and directories in this repository:
+
+Files
+HTML Files
+index.html: This is the main HTML file for the portfolio website. It contains the structure and content of the website, including sections such as Profile, About, Experience, Projects, and Contact.
+CSS Files
+style.css: This file contains the CSS styling for the portfolio website.
+mediaqueries.css: This file contains media queries for responsive design, adjusting the layout and styles for different screen sizes.
+JavaScript File
+script.js: This file contains JavaScript code for any interactive functionality on the website, such as toggling the hamburger menu.
+Image Assets
+/assets: This directory contains image assets used in the portfolio website, such as profile pictures and project images.
+Directories
+/assets: This directory contains image assets used in the portfolio website.
+README.md
+You are currently reading the README file. It provides an overview of the files and directories in this repository, along with any necessary instructions for running or deploying the website.
+
+How to Use
+To view the portfolio website, simply open the index.html file in a web browser. The website is responsive and should adapt to different screen sizes.
+
+Author
+This portfolio website was created by Vuyo Mthembu.
