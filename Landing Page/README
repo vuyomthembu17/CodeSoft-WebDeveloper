@@ -1,0 +1,35 @@
+Burger Website
+A simple website template for a burger restaurant.
+
+Table of Contents
+Introduction
+Features
+Usage
+Responsive Design
+Contributing
+License
+Introduction
+This is a basic website template designed for a burger restaurant. It features a modern and responsive design, allowing users to navigate through different sections of the website easily.
+
+Features
+Clean and attractive user interface.
+Responsive design for optimal viewing on various devices.
+Navigation menu for easy access to different sections of the website.
+Eye-catching animations and effects to enhance user experience.
+Usage
+To use the website template, simply download or clone the repository to your local machine. You can then customize the content, images, and styles according to your preferences.
+
+HTML Structure
+The HTML file (index.html) contains the structure of the website, including header, navigation menu, sections for home, menu, specials, and contact.
+
+CSS Styling
+The CSS styles are defined in the Burger.css file, providing the visual appearance and layout of the website.
+
+JavaScript
+There is currently no JavaScript functionality implemented in this version of the website.
+
+Responsive Design
+The website template is designed to be responsive, ensuring optimal viewing experience across a wide range of devices, including desktops, tablets, and mobile phones.
+
+Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
